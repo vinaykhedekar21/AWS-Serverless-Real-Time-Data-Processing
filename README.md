@@ -15,6 +15,8 @@ to archive the raw data to Amazon S3, and Amazon Athena to run ad-hoc queries ag
    Step 5. Grant the unauthenticated role access to the stream
    Step 6. View unicorn status on the dashboard
    
+   ![](Kinesis-Data-Stream-Analytics-Firehose.PNG)
+   
 2. Aggregate data
 
    Step 1. Create an Amazon Kinesis stream
