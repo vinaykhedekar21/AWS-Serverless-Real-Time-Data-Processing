@@ -21,6 +21,8 @@ to archive the raw data to Amazon S3, and Amazon Athena to run ad-hoc queries ag
    Step 2. Create an Amazon Kinesis Data Analytics application
    Step 3. Read messages from the stream
    
+   ![](Images/Kinesis-Data-Stream-Monitor.PNG)
+   
 3. Process streaming data
 
    Step 1. Create an Amazon DynamoDB tables
@@ -28,6 +30,8 @@ to archive the raw data to Amazon S3, and Amazon Athena to run ad-hoc queries ag
    Step 3. Create a Lambda function to process the stream
    Step 4. Monitor the Lambda function
    Step 5: Query the DynamoDB table
+   
+   ![](Images/Lambda-Stream-Processing-Monitor.PNG)
 
 4. Store & query data
 
