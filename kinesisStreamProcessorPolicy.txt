@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "kinesis:SubscribeToShard",
+                "kinesis:DescribeStreamSummary",
+                "kinesis:DescribeStreamConsumer",
+                "kinesis:GetShardIterator",
+                "kinesis:GetRecords",
+                "kinesis:DescribeStream",
+                "kinesis:ListTagsForStream"
+            ],
+            "Resource": "arn:aws:kinesis:us-east-1:218884414781:stream/wildrydes"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "kinesis:ListStreams",
+                "kinesis:ListShards",
+                "kinesis:DescribeLimits",
+                "kinesis:ListStreamConsumers"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
