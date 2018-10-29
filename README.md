@@ -41,4 +41,4 @@ to archive the raw data to Amazon S3, and Amazon Athena to run ad-hoc queries ag
    Step 4. Explore the batched data files
    Step 5: Query the data files
 
-
+   ![](Images/Amazon-Athena-Query-Raw-Data.PNG)
